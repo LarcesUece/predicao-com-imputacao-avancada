@@ -1,0 +1,36 @@
+2026-03-23 14:45:10,202 |    INFO | Starting experiment with multiple models and links
+2026-03-23 14:45:10,202 |    INFO | 
+============================================================
+2026-03-23 14:45:10,202 |    INFO | Processing sc-rn with model RandomForest
+2026-03-23 14:45:10,202 |    INFO | ============================================================
+2026-03-23 14:45:10,202 | WARNING | File not found: sc-rn_baseline_median.csv
+2026-03-23 14:45:10,202 | WARNING | File not found: sc-rn_stacking.csv
+2026-03-23 14:45:10,202 |    INFO | 
+============================================================
+2026-03-23 14:45:10,202 |    INFO | Processing pr-go with model GRU
+2026-03-23 14:45:10,202 |    INFO | ============================================================
+2026-03-23 14:45:10,202 | WARNING | File not found: pr-go_baseline_bfill.csv
+2026-03-23 14:45:10,202 | WARNING | File not found: pr-go_stacking.csv
+2026-03-23 14:45:10,202 |    INFO | 
+============================================================
+2026-03-23 14:45:10,202 |    INFO | Processing ac-rn with model LSTM
+2026-03-23 14:45:10,202 |    INFO | ============================================================
+2026-03-23 14:45:10,202 | WARNING | File not found: ac-rn_baseline_ffill.csv
+2026-03-23 14:45:10,202 | WARNING | File not found: ac-rn_stacking.csv
+2026-03-23 14:45:10,202 |    INFO | 
+============================================================
+2026-03-23 14:45:10,202 |    INFO | Processing am-rn with model GRU
+2026-03-23 14:45:10,202 |    INFO | ============================================================
+2026-03-23 14:45:10,202 | WARNING | File not found: am-rn_baseline_ffill.csv
+2026-03-23 14:45:10,202 | WARNING | File not found: am-rn_stacking.csv
+2026-03-23 14:45:10,202 |    INFO | 
+============================================================
+2026-03-23 14:45:10,202 |    INFO | Processing mt-sc with model GRU
+2026-03-23 14:45:10,202 |    INFO | ============================================================
+2026-03-23 14:45:10,202 | WARNING | File not found: mt-sc_baseline_knn.csv
+2026-03-23 14:45:10,202 | WARNING | File not found: mt-sc_stacking.csv
+2026-03-23 14:45:10,203 |    INFO | 
+All models details saved to models_detail.csv
+2026-03-23 14:45:10,204 |    INFO | 
+Complete log: logs/prediction_rf_best_20260323_144510.log
+2026-03-23 14:45:10,204 |    INFO | End of complete experiment.

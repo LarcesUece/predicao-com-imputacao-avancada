@@ -1,0 +1,41 @@
+2026-03-23 14:52:40,025 |    INFO | Starting automatic filtered experiment
+2026-03-23 14:52:40,052 |    INFO | Selected 5 links from simple_comparison_summary.csv
+2026-03-23 14:52:40,052 |    INFO | 
+======================================================================
+2026-03-23 14:52:40,052 |    INFO | Processing link=am-rn | previous improvement=-292.2994%
+2026-03-23 14:52:40,053 |    INFO | Baseline: method=ffill, model=LSTM | Stacking: model=GRU
+2026-03-23 14:52:40,053 |    INFO | ======================================================================
+2026-03-23 14:52:40,053 | WARNING | [am-rn][baseline] File not found: files_filtered/am-rn_baseline_ffill.csv
+2026-03-23 14:52:40,053 | WARNING | [am-rn][stacking] File not found: files_filtered/am-rn_stacking.csv
+2026-03-23 14:52:40,053 |    INFO | 
+======================================================================
+2026-03-23 14:52:40,053 |    INFO | Processing link=pr-go | previous improvement=-13.1686%
+2026-03-23 14:52:40,053 |    INFO | Baseline: method=median, model=RandomForest | Stacking: model=GRU
+2026-03-23 14:52:40,053 |    INFO | ======================================================================
+2026-03-23 14:52:40,053 | WARNING | [pr-go][baseline] File not found: files_filtered/pr-go_baseline_median.csv
+2026-03-23 14:52:40,053 | WARNING | [pr-go][stacking] File not found: files_filtered/pr-go_stacking.csv
+2026-03-23 14:52:40,053 |    INFO | 
+======================================================================
+2026-03-23 14:52:40,053 |    INFO | Processing link=mt-sc | previous improvement=-0.7239%
+2026-03-23 14:52:40,053 |    INFO | Baseline: method=mean, model=GRU | Stacking: model=LSTM
+2026-03-23 14:52:40,053 |    INFO | ======================================================================
+2026-03-23 14:52:40,053 | WARNING | [mt-sc][baseline] File not found: files_filtered/mt-sc_baseline_mean.csv
+2026-03-23 14:52:40,053 | WARNING | [mt-sc][stacking] File not found: files_filtered/mt-sc_stacking.csv
+2026-03-23 14:52:40,053 |    INFO | 
+======================================================================
+2026-03-23 14:52:40,053 |    INFO | Processing link=sc-rn | previous improvement=38.9612%
+2026-03-23 14:52:40,053 |    INFO | Baseline: method=knn, model=GRU | Stacking: model=GRU
+2026-03-23 14:52:40,053 |    INFO | ======================================================================
+2026-03-23 14:52:40,053 | WARNING | [sc-rn][baseline] File not found: files_filtered/sc-rn_baseline_knn.csv
+2026-03-23 14:52:40,054 | WARNING | [sc-rn][stacking] File not found: files_filtered/sc-rn_stacking.csv
+2026-03-23 14:52:40,054 |    INFO | 
+======================================================================
+2026-03-23 14:52:40,054 |    INFO | Processing link=ac-rn | previous improvement=72.3947%
+2026-03-23 14:52:40,054 |    INFO | Baseline: method=bfill, model=LSTM | Stacking: model=LSTM
+2026-03-23 14:52:40,054 |    INFO | ======================================================================
+2026-03-23 14:52:40,054 | WARNING | [ac-rn][baseline] File not found: files_filtered/ac-rn_baseline_bfill.csv
+2026-03-23 14:52:40,054 | WARNING | [ac-rn][stacking] File not found: files_filtered/ac-rn_stacking.csv
+2026-03-23 14:52:40,055 |    INFO | Saved: models_detail_auto.csv
+2026-03-23 14:52:40,055 | WARNING | No summary rows generated.
+2026-03-23 14:52:40,055 |    INFO | Complete log: logs/prediction_filtered_auto_20260323_145240.log
+2026-03-23 14:52:40,055 |    INFO | End of experiment.

@@ -1,0 +1,54 @@
+2026-03-23 15:33:13 |    INFO | Starting simple script
+2026-03-23 15:33:13 |    INFO | Allowed baseline methods: ['bfill', 'ffill', 'knn', 'mean', 'median']
+2026-03-23 15:33:13 |    INFO | Links detected: 5
+2026-03-23 15:33:13 |    INFO | PyTorch version: 2.10.0+cu128
+2026-03-23 15:33:13 |    INFO | CUDA available (torch.cuda.is_available()): False
+2026-03-23 15:33:13 |    INFO | CUDA version: N/A
+2026-03-23 15:33:13 | WARNING | CUDA not available; falling back to CPU.
+2026-03-23 15:33:13 |    INFO | Using device: cpu
+2026-03-23 15:33:13 |    INFO | Processing limited to 5 links out of 5 total links
+2026-03-23 15:33:13 |    INFO | [ac-rn] Evaluating 5 baselines + stacking
+2026-03-23 15:33:21 |    INFO | [ac-rn] Baseline bfill RMSE RF=0.1547 LSTM=0.0186 GRU=0.0132
+2026-03-23 15:33:28 |    INFO | [ac-rn] Baseline ffill RMSE RF=0.1748 LSTM=0.0166 GRU=0.0248
+2026-03-23 15:33:37 |    INFO | [ac-rn] Baseline knn RMSE RF=0.2283 LSTM=0.0130 GRU=0.0156
+2026-03-23 15:33:45 |    INFO | [ac-rn] Baseline mean RMSE RF=0.2283 LSTM=0.0339 GRU=0.0299
+2026-03-23 15:33:55 |    INFO | [ac-rn] Baseline median RMSE RF=0.3182 LSTM=0.0173 GRU=0.0288
+2026-03-23 15:34:04 |    INFO | [ac-rn] Stacking RF=0.1819 LSTM=0.0297 GRU=0.0387 -> best=LSTM:0.0297
+2026-03-23 15:34:04 |    INFO | [ac-rn] Best baseline knn/LSTM RMSE=0.0130 | Stacking LSTM RMSE=0.0297 | improvement=-127.78%
+2026-03-23 15:34:04 |    INFO | [am-rn] Evaluating 5 baselines + stacking
+2026-03-23 15:34:17 |    INFO | [am-rn] Baseline bfill RMSE RF=0.2452 LSTM=0.0495 GRU=0.0438
+2026-03-23 15:34:26 |    INFO | [am-rn] Baseline ffill RMSE RF=0.5526 LSTM=0.0714 GRU=0.0159
+2026-03-23 15:34:38 |    INFO | [am-rn] Baseline knn RMSE RF=0.5301 LSTM=0.0770 GRU=0.0157
+2026-03-23 15:34:48 |    INFO | [am-rn] Baseline mean RMSE RF=0.5301 LSTM=0.0247 GRU=0.0173
+2026-03-23 15:35:00 |    INFO | [am-rn] Baseline median RMSE RF=0.5160 LSTM=0.0468 GRU=0.0351
+2026-03-23 15:35:10 |    INFO | [am-rn] Stacking RF=0.5280 LSTM=0.0449 GRU=0.0112 -> best=GRU:0.0112
+2026-03-23 15:35:10 |    INFO | [am-rn] Best baseline knn/GRU RMSE=0.0157 | Stacking GRU RMSE=0.0112 | improvement=28.66%
+2026-03-23 15:35:10 |    INFO | [mt-sc] Evaluating 5 baselines + stacking
+2026-03-23 15:35:24 |    INFO | [mt-sc] Baseline bfill RMSE RF=4.8776 LSTM=4.9187 GRU=4.8545
+2026-03-23 15:35:42 |    INFO | [mt-sc] Baseline ffill RMSE RF=4.8771 LSTM=4.8942 GRU=4.7877
+2026-03-23 15:35:57 |    INFO | [mt-sc] Baseline knn RMSE RF=4.9307 LSTM=4.8726 GRU=4.7576
+2026-03-23 15:36:13 |    INFO | [mt-sc] Baseline mean RMSE RF=4.9307 LSTM=4.8127 GRU=4.7908
+2026-03-23 15:36:27 |    INFO | [mt-sc] Baseline median RMSE RF=4.9053 LSTM=4.9142 GRU=4.7628
+2026-03-23 15:36:42 |    INFO | [mt-sc] Stacking RF=4.8483 LSTM=4.8940 GRU=4.6990 -> best=GRU:4.6990
+2026-03-23 15:36:42 |    INFO | [mt-sc] Best baseline knn/GRU RMSE=4.7576 | Stacking GRU RMSE=4.6990 | improvement=1.23%
+2026-03-23 15:36:42 |    INFO | [pr-go] Evaluating 5 baselines + stacking
+2026-03-23 15:36:58 |    INFO | [pr-go] Baseline bfill RMSE RF=3.0811 LSTM=3.1644 GRU=3.0079
+2026-03-23 15:37:15 |    INFO | [pr-go] Baseline ffill RMSE RF=2.9991 LSTM=3.2299 GRU=2.9799
+2026-03-23 15:37:30 |    INFO | [pr-go] Baseline knn RMSE RF=2.6956 LSTM=3.0331 GRU=2.9958
+2026-03-23 15:37:46 |    INFO | [pr-go] Baseline mean RMSE RF=2.6956 LSTM=3.1333 GRU=2.9456
+2026-03-23 15:38:03 |    INFO | [pr-go] Baseline median RMSE RF=2.6817 LSTM=3.1107 GRU=2.9468
+2026-03-23 15:38:19 |    INFO | [pr-go] Stacking RF=3.1190 LSTM=3.2119 GRU=3.0788 -> best=GRU:3.0788
+2026-03-23 15:38:19 |    INFO | [pr-go] Best baseline median/RandomForest RMSE=2.6817 | Stacking GRU RMSE=3.0788 | improvement=-14.80%
+2026-03-23 15:38:19 |    INFO | [sc-rn] Evaluating 5 baselines + stacking
+2026-03-23 15:38:31 |    INFO | [sc-rn] Baseline bfill RMSE RF=0.4086 LSTM=0.0363 GRU=0.0284
+2026-03-23 15:38:42 |    INFO | [sc-rn] Baseline ffill RMSE RF=0.4317 LSTM=0.0378 GRU=0.0385
+2026-03-23 15:38:54 |    INFO | [sc-rn] Baseline knn RMSE RF=0.4031 LSTM=0.0470 GRU=0.0464
+2026-03-23 15:39:05 |    INFO | [sc-rn] Baseline mean RMSE RF=0.4031 LSTM=0.0364 GRU=0.0273
+2026-03-23 15:39:16 |    INFO | [sc-rn] Baseline median RMSE RF=0.4252 LSTM=0.0363 GRU=0.0366
+2026-03-23 15:39:27 |    INFO | [sc-rn] Stacking RF=0.4031 LSTM=0.0268 GRU=0.0228 -> best=GRU:0.0228
+2026-03-23 15:39:27 |    INFO | [sc-rn] Best baseline mean/GRU RMSE=0.0273 | Stacking GRU RMSE=0.0228 | improvement=16.68%
+2026-03-23 15:39:27 |    INFO | Details saved: simple_models_detail.csv
+2026-03-23 15:39:27 |    INFO | Summary saved: simple_comparison_summary.csv
+2026-03-23 15:39:27 |    INFO | Stacking better in 3 of 5 links.
+2026-03-23 15:39:27 |    INFO | Log: logs/simple_prediction_20260323_153313.log
+2026-03-23 15:39:27 |    INFO | End.

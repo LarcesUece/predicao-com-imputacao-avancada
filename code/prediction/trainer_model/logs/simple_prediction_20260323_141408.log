@@ -1,0 +1,6 @@
+2026-03-23 14:14:08 |    INFO | Starting simple script
+2026-03-23 14:14:08 |    INFO | Allowed baseline methods: ['bfill', 'ffill', 'knn', 'mean', 'median']
+2026-03-23 14:14:08 |    INFO | Links detected: 5
+2026-03-23 14:14:08 |    INFO | PyTorch version: 2.10.0+cu128
+2026-03-23 14:14:08 |    INFO | CUDA available (torch.cuda.is_available()): False
+2026-03-23 14:14:08 |    INFO | CUDA version: N/A
