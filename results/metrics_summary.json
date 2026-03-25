@@ -1,0 +1,2252 @@
+{
+    "ac-rn": {
+        "0.2": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 55.8,
+                    "nrmse": 6.39,
+                    "r2": -0.13099338170454922,
+                    "mape": 5.7,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 56.81,
+                    "nrmse": 6.51,
+                    "r2": -0.17233788285535745,
+                    "mape": 5.83,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 55.8,
+                    "nrmse": 6.39,
+                    "r2": -0.13099338170454922,
+                    "mape": 5.7,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 37.13,
+                    "nrmse": 4.25,
+                    "r2": 0.4991680186227929,
+                    "mape": 3.17,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 25.54,
+                    "nrmse": 2.92,
+                    "r2": 0.7631064598764561,
+                    "mape": 2.06,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 26.4,
+                    "nrmse": 3.02,
+                    "r2": 0.746811105832222,
+                    "mape": 2.2,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 28.62,
+                    "nrmse": 3.28,
+                    "r2": 0.7024388547770425,
+                    "mape": 2.35,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 35.94,
+                        "nrmse": 4.12,
+                        "r2": 0.5307991392679003,
+                        "mape": 2.61,
+                        "prediction_time_per_sample": 21.8384
+                    }
+                }
+            }
+        },
+        "0.25": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 51.19,
+                    "nrmse": 5.93,
+                    "r2": -0.01676675898746227,
+                    "mape": 5.2,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 51.0,
+                    "nrmse": 5.91,
+                    "r2": -0.009313371190677433,
+                    "mape": 5.18,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 51.19,
+                    "nrmse": 5.93,
+                    "r2": -0.01676675898746227,
+                    "mape": 5.2,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 36.14,
+                    "nrmse": 4.19,
+                    "r2": 0.4931866077365188,
+                    "mape": 3.25,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 24.4,
+                    "nrmse": 2.83,
+                    "r2": 0.7690542689294718,
+                    "mape": 2.04,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 28.12,
+                    "nrmse": 3.26,
+                    "r2": 0.6932284060440417,
+                    "mape": 2.38,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 26.77,
+                    "nrmse": 3.1,
+                    "r2": 0.7218774500288818,
+                    "mape": 2.3,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 39.34,
+                        "nrmse": 4.56,
+                        "r2": 0.3994660791864578,
+                        "mape": 2.96,
+                        "prediction_time_per_sample": 1.9391
+                    }
+                }
+            }
+        },
+        "0.3": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 51.68,
+                    "nrmse": 5.97,
+                    "r2": -0.038405435236033236,
+                    "mape": 5.23,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 51.24,
+                    "nrmse": 5.92,
+                    "r2": -0.02095811838755557,
+                    "mape": 5.19,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 51.68,
+                    "nrmse": 5.97,
+                    "r2": -0.038405435236033236,
+                    "mape": 5.23,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 34.67,
+                    "nrmse": 4.01,
+                    "r2": 0.5326117554090632,
+                    "mape": 3.05,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 28.68,
+                    "nrmse": 3.32,
+                    "r2": 0.6800531115205066,
+                    "mape": 2.38,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 27.62,
+                    "nrmse": 3.19,
+                    "r2": 0.7033688352282406,
+                    "mape": 2.31,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 24.49,
+                    "nrmse": 2.83,
+                    "r2": 0.7667482335596811,
+                    "mape": 2.05,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 35.9,
+                        "nrmse": 4.15,
+                        "r2": 0.4987993434148542,
+                        "mape": 2.6,
+                        "prediction_time_per_sample": 1.5495
+                    }
+                }
+            }
+        },
+        "0.35": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 50.45,
+                    "nrmse": 5.85,
+                    "r2": -0.02293368452703226,
+                    "mape": 5.12,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 50.14,
+                    "nrmse": 5.81,
+                    "r2": -0.010335191915693098,
+                    "mape": 5.09,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 50.45,
+                    "nrmse": 5.85,
+                    "r2": -0.02293368452703226,
+                    "mape": 5.12,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 33.94,
+                    "nrmse": 3.93,
+                    "r2": 0.5370958727265511,
+                    "mape": 2.91,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 31.62,
+                    "nrmse": 3.66,
+                    "r2": 0.5980838035395024,
+                    "mape": 2.6,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 30.32,
+                    "nrmse": 3.51,
+                    "r2": 0.6304136530555747,
+                    "mape": 2.46,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 30.67,
+                    "nrmse": 3.55,
+                    "r2": 0.6218224860387133,
+                    "mape": 2.6,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 36.19,
+                        "nrmse": 4.19,
+                        "r2": 0.47356025463961904,
+                        "mape": 2.83,
+                        "prediction_time_per_sample": 1.6498
+                    }
+                }
+            }
+        },
+        "0.4": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 50.83,
+                    "nrmse": 5.88,
+                    "r2": -0.03819814733948235,
+                    "mape": 5.14,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 50.67,
+                    "nrmse": 5.87,
+                    "r2": -0.031659018651412296,
+                    "mape": 5.13,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 50.83,
+                    "nrmse": 5.88,
+                    "r2": -0.03819814733948235,
+                    "mape": 5.14,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 34.94,
+                    "nrmse": 4.04,
+                    "r2": 0.5095449522926836,
+                    "mape": 2.98,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 32.95,
+                    "nrmse": 3.81,
+                    "r2": 0.5638220743572485,
+                    "mape": 2.77,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 30.48,
+                    "nrmse": 3.53,
+                    "r2": 0.6267533615381076,
+                    "mape": 2.5,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 31.71,
+                    "nrmse": 3.67,
+                    "r2": 0.5960449279077566,
+                    "mape": 2.74,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 30.9,
+                        "nrmse": 3.58,
+                        "r2": 0.6164051862906121,
+                        "mape": 2.49,
+                        "prediction_time_per_sample": 1.3292
+                    }
+                }
+            }
+        },
+        "0.45": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 53.94,
+                    "nrmse": 6.21,
+                    "r2": -0.1534994900240596,
+                    "mape": 5.4,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 53.47,
+                    "nrmse": 6.15,
+                    "r2": -0.13363860147775974,
+                    "mape": 5.37,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 53.94,
+                    "nrmse": 6.21,
+                    "r2": -0.1534994900240596,
+                    "mape": 5.4,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 33.24,
+                    "nrmse": 3.83,
+                    "r2": 0.5617844553612839,
+                    "mape": 2.8,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 54.45,
+                    "nrmse": 6.27,
+                    "r2": -0.17543262614214972,
+                    "mape": 3.75,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 30.17,
+                    "nrmse": 3.47,
+                    "r2": 0.6391557023378391,
+                    "mape": 2.45,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 39.07,
+                    "nrmse": 4.5,
+                    "r2": 0.39474073608543214,
+                    "mape": 3.16,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 27.64,
+                        "nrmse": 3.18,
+                        "r2": 0.696996886136905,
+                        "mape": 2.38,
+                        "prediction_time_per_sample": 1.2459
+                    }
+                }
+            }
+        },
+        "0.5": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 55.14,
+                    "nrmse": 6.36,
+                    "r2": -0.1342246616324223,
+                    "mape": 5.56,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 54.77,
+                    "nrmse": 6.31,
+                    "r2": -0.11893847126713641,
+                    "mape": 5.54,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 55.14,
+                    "nrmse": 6.36,
+                    "r2": -0.1342246616324223,
+                    "mape": 5.56,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 33.25,
+                    "nrmse": 3.83,
+                    "r2": 0.5874835601985315,
+                    "mape": 2.88,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 53.06,
+                    "nrmse": 6.12,
+                    "r2": -0.05032570511471879,
+                    "mape": 3.7,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 30.47,
+                    "nrmse": 3.51,
+                    "r2": 0.6537253589747887,
+                    "mape": 2.64,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 37.71,
+                    "nrmse": 4.35,
+                    "r2": 0.4696244119095224,
+                    "mape": 3.03,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 39.02,
+                        "nrmse": 4.5,
+                        "r2": 0.43208443650965567,
+                        "mape": 3.79,
+                        "prediction_time_per_sample": 0.9768
+                    }
+                }
+            }
+        }
+    },
+    "am-rn": {
+        "0.2": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 185.88,
+                    "nrmse": 21.59,
+                    "r2": -1.4835751345629151,
+                    "mape": 21.63,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 124.78,
+                    "nrmse": 14.49,
+                    "r2": -0.11922123400642759,
+                    "mape": 9.41,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 185.88,
+                    "nrmse": 21.59,
+                    "r2": -1.4835751345629151,
+                    "mape": 21.63,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 185.47,
+                    "nrmse": 21.54,
+                    "r2": -1.472507019367252,
+                    "mape": 10.57,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 121.49,
+                    "nrmse": 14.11,
+                    "r2": -0.06093872050696847,
+                    "mape": 10.35,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 212.4,
+                    "nrmse": 24.67,
+                    "r2": -2.242612716062236,
+                    "mape": 13.08,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 97.88,
+                    "nrmse": 11.37,
+                    "r2": 0.31137127142942844,
+                    "mape": 6.2,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 74.57,
+                        "nrmse": 8.66,
+                        "r2": 0.6003265643238803,
+                        "mape": 8.28,
+                        "prediction_time_per_sample": 1.9369
+                    }
+                }
+            }
+        },
+        "0.25": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 225.19,
+                    "nrmse": 28.36,
+                    "r2": -0.08898458805455012,
+                    "mape": 38.23,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 241.17,
+                    "nrmse": 30.37,
+                    "r2": -0.24903749233621575,
+                    "mape": 36.65,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 225.19,
+                    "nrmse": 28.36,
+                    "r2": -0.08898458805455012,
+                    "mape": 38.23,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 227.81,
+                    "nrmse": 28.68,
+                    "r2": -0.11439719435867435,
+                    "mape": 16.0,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 253.05,
+                    "nrmse": 31.86,
+                    "r2": -0.3750502382435006,
+                    "mape": 33.43,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 217.35,
+                    "nrmse": 27.37,
+                    "r2": -0.014440985180693033,
+                    "mape": 16.65,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 192.17,
+                    "nrmse": 24.2,
+                    "r2": 0.20700204025455082,
+                    "mape": 17.91,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 152.82,
+                        "nrmse": 19.24,
+                        "r2": 0.4984724735234456,
+                        "mape": 21.71,
+                        "prediction_time_per_sample": 2.5118
+                    }
+                }
+            }
+        },
+        "0.3": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 239.34,
+                    "nrmse": 30.46,
+                    "r2": -0.06021198735222777,
+                    "mape": 43.66,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 259.73,
+                    "nrmse": 33.05,
+                    "r2": -0.2485071027420116,
+                    "mape": 43.15,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 239.34,
+                    "nrmse": 30.46,
+                    "r2": -0.06021198735222777,
+                    "mape": 43.66,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 218.41,
+                    "nrmse": 27.79,
+                    "r2": 0.11715828560582298,
+                    "mape": 19.43,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 231.04,
+                    "nrmse": 29.4,
+                    "r2": 0.012087083079355243,
+                    "mape": 28.13,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 201.32,
+                    "nrmse": 25.62,
+                    "r2": 0.2498607028893164,
+                    "mape": 17.07,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 178.48,
+                    "nrmse": 22.71,
+                    "r2": 0.41047243737234507,
+                    "mape": 17.94,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 124.4,
+                        "nrmse": 15.83,
+                        "r2": 0.7135768496068945,
+                        "mape": 21.28,
+                        "prediction_time_per_sample": 1.7524
+                    }
+                }
+            }
+        },
+        "0.35": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 270.59,
+                    "nrmse": 36.03,
+                    "r2": -0.0009161370346040254,
+                    "mape": 65.48,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 309.6,
+                    "nrmse": 41.22,
+                    "r2": -0.3102740215789992,
+                    "mape": 71.17,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 270.59,
+                    "nrmse": 36.03,
+                    "r2": -0.0009161370346040254,
+                    "mape": 65.48,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 202.68,
+                    "nrmse": 26.99,
+                    "r2": 0.43845400271802826,
+                    "mape": 19.31,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 264.09,
+                    "nrmse": 35.16,
+                    "r2": 0.04661204824089982,
+                    "mape": 44.71,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 198.03,
+                    "nrmse": 26.37,
+                    "r2": 0.46393019387375856,
+                    "mape": 23.47,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 183.73,
+                    "nrmse": 24.46,
+                    "r2": 0.5385699412103553,
+                    "mape": 29.01,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 117.16,
+                        "nrmse": 15.6,
+                        "r2": 0.8123703288375317,
+                        "mape": 22.2,
+                        "prediction_time_per_sample": 1.5421
+                    }
+                }
+            }
+        },
+        "0.4": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 291.83,
+                    "nrmse": 40.82,
+                    "r2": -0.03143106307246479,
+                    "mape": 76.12,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 342.85,
+                    "nrmse": 47.96,
+                    "r2": -0.423595406030701,
+                    "mape": 85.12,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 291.83,
+                    "nrmse": 40.82,
+                    "r2": -0.03143106307246479,
+                    "mape": 76.12,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 215.57,
+                    "nrmse": 30.15,
+                    "r2": 0.4371831797257306,
+                    "mape": 29.95,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 328.55,
+                    "nrmse": 45.96,
+                    "r2": -0.30726653705399487,
+                    "mape": 69.55,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 230.02,
+                    "nrmse": 32.18,
+                    "r2": 0.3592355758089987,
+                    "mape": 38.37,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 219.71,
+                    "nrmse": 30.73,
+                    "r2": 0.41536202241909126,
+                    "mape": 42.93,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 103.79,
+                        "nrmse": 14.52,
+                        "r2": 0.8695409887308003,
+                        "mape": 20.71,
+                        "prediction_time_per_sample": 1.5421
+                    }
+                }
+            }
+        },
+        "0.45": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 291.74,
+                    "nrmse": 40.59,
+                    "r2": -0.028597527201825068,
+                    "mape": 74.84,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 341.04,
+                    "nrmse": 47.45,
+                    "r2": -0.40557074035107665,
+                    "mape": 83.03,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 291.74,
+                    "nrmse": 40.59,
+                    "r2": -0.028597527201825068,
+                    "mape": 74.84,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 207.53,
+                    "nrmse": 28.88,
+                    "r2": 0.47950305566051865,
+                    "mape": 33.98,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 339.19,
+                    "nrmse": 47.2,
+                    "r2": -0.3903782507052722,
+                    "mape": 71.46,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 221.13,
+                    "nrmse": 30.77,
+                    "r2": 0.40908395329749003,
+                    "mape": 40.34,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 235.6,
+                    "nrmse": 32.78,
+                    "r2": 0.32918291764925545,
+                    "mape": 49.11,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 152.77,
+                        "nrmse": 21.26,
+                        "r2": 0.7179407381700711,
+                        "mape": 30.36,
+                        "prediction_time_per_sample": 1.3828
+                    }
+                }
+            }
+        },
+        "0.5": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 292.58,
+                    "nrmse": 40.6,
+                    "r2": -0.02951600491896511,
+                    "mape": 74.54,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 340.61,
+                    "nrmse": 47.26,
+                    "r2": -0.39521091105832196,
+                    "mape": 82.13,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 292.58,
+                    "nrmse": 40.6,
+                    "r2": -0.02951600491896511,
+                    "mape": 74.54,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 272.96,
+                    "nrmse": 37.88,
+                    "r2": 0.10396370853413239,
+                    "mape": 35.38,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 334.15,
+                    "nrmse": 46.37,
+                    "r2": -0.34280935530715184,
+                    "mape": 70.61,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 274.64,
+                    "nrmse": 38.11,
+                    "r2": 0.09288115906030747,
+                    "mape": 39.97,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 244.25,
+                    "nrmse": 33.89,
+                    "r2": 0.2825372519714515,
+                    "mape": 48.04,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 190.17,
+                        "nrmse": 26.39,
+                        "r2": 0.5650532307814244,
+                        "mape": 39.92,
+                        "prediction_time_per_sample": 1.1373
+                    }
+                }
+            }
+        }
+    },
+    "mt-sc": {
+        "0.2": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 27.63,
+                    "nrmse": 3.06,
+                    "r2": -0.0021173208694991175,
+                    "mape": 1.78,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 28.45,
+                    "nrmse": 3.15,
+                    "r2": -0.062087071374159475,
+                    "mape": 1.51,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 27.63,
+                    "nrmse": 3.06,
+                    "r2": -0.0021173208694991175,
+                    "mape": 1.78,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 45.25,
+                    "nrmse": 5.01,
+                    "r2": -1.687514719260049,
+                    "mape": 2.51,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 40.67,
+                    "nrmse": 4.51,
+                    "r2": -1.1706122866828639,
+                    "mape": 2.43,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 41.43,
+                    "nrmse": 4.59,
+                    "r2": -1.2521421880198123,
+                    "mape": 2.44,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 36.27,
+                    "nrmse": 4.02,
+                    "r2": -0.7263040147598556,
+                    "mape": 2.23,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 6.76,
+                        "nrmse": 0.75,
+                        "r2": 0.9400742204740458,
+                        "mape": 0.3,
+                        "prediction_time_per_sample": 0.2143
+                    }
+                }
+            }
+        },
+        "0.25": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 26.22,
+                    "nrmse": 2.9,
+                    "r2": -0.012195068796713837,
+                    "mape": 1.76,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 26.65,
+                    "nrmse": 2.95,
+                    "r2": -0.04580223884525747,
+                    "mape": 1.43,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 26.22,
+                    "nrmse": 2.9,
+                    "r2": -0.012195068796713837,
+                    "mape": 1.76,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 41.97,
+                    "nrmse": 4.64,
+                    "r2": -1.5930935005145663,
+                    "mape": 2.35,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 39.65,
+                    "nrmse": 4.39,
+                    "r2": -1.3139153446279903,
+                    "mape": 2.32,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 38.63,
+                    "nrmse": 4.27,
+                    "r2": -1.1974394422347947,
+                    "mape": 2.29,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 34.18,
+                    "nrmse": 3.78,
+                    "r2": -0.7200381955378894,
+                    "mape": 2.11,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 4.76,
+                        "nrmse": 0.53,
+                        "r2": 0.9666935925269751,
+                        "mape": 0.27,
+                        "prediction_time_per_sample": 0.155
+                    }
+                }
+            }
+        },
+        "0.3": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 29.77,
+                    "nrmse": 3.3,
+                    "r2": -0.0026764178735052546,
+                    "mape": 1.83,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 30.49,
+                    "nrmse": 3.38,
+                    "r2": -0.05137303970803053,
+                    "mape": 1.54,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 29.77,
+                    "nrmse": 3.3,
+                    "r2": -0.0026764178735052546,
+                    "mape": 1.83,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 47.54,
+                    "nrmse": 5.27,
+                    "r2": -1.5567745840170284,
+                    "mape": 2.59,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 37.67,
+                    "nrmse": 4.17,
+                    "r2": -0.605499682740182,
+                    "mape": 2.27,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 44.29,
+                    "nrmse": 4.91,
+                    "r2": -1.2186377460360633,
+                    "mape": 2.49,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 36.66,
+                    "nrmse": 4.06,
+                    "r2": -0.5199473992684771,
+                    "mape": 2.16,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 6.18,
+                        "nrmse": 0.68,
+                        "r2": 0.9567791703979958,
+                        "mape": 0.29,
+                        "prediction_time_per_sample": 0.1656
+                    }
+                }
+            }
+        },
+        "0.35": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 28.85,
+                    "nrmse": 3.2,
+                    "r2": -0.003252708687728312,
+                    "mape": 1.84,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 29.58,
+                    "nrmse": 3.28,
+                    "r2": -0.05442121701271918,
+                    "mape": 1.53,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 28.85,
+                    "nrmse": 3.2,
+                    "r2": -0.003252708687728312,
+                    "mape": 1.84,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 46.91,
+                    "nrmse": 5.2,
+                    "r2": -1.6522736440339796,
+                    "mape": 2.59,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 39.89,
+                    "nrmse": 4.42,
+                    "r2": -0.9173933637823393,
+                    "mape": 2.33,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 43.99,
+                    "nrmse": 4.87,
+                    "r2": -1.3318751816419532,
+                    "mape": 2.53,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 36.71,
+                    "nrmse": 4.07,
+                    "r2": -0.62426978143392,
+                    "mape": 2.18,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 6.01,
+                        "nrmse": 0.67,
+                        "r2": 0.956463678938257,
+                        "mape": 0.3,
+                        "prediction_time_per_sample": 0.1227
+                    }
+                }
+            }
+        },
+        "0.4": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 28.72,
+                    "nrmse": 3.18,
+                    "r2": -0.0008047784364881849,
+                    "mape": 1.84,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 29.68,
+                    "nrmse": 3.29,
+                    "r2": -0.0683984300059084,
+                    "mape": 1.58,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 28.72,
+                    "nrmse": 3.18,
+                    "r2": -0.0008047784364881849,
+                    "mape": 1.84,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 44.03,
+                    "nrmse": 4.88,
+                    "r2": -1.351882142774727,
+                    "mape": 2.46,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 39.18,
+                    "nrmse": 4.34,
+                    "r2": -0.8621600376635614,
+                    "mape": 2.35,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 41.51,
+                    "nrmse": 4.6,
+                    "r2": -1.0899671127407489,
+                    "mape": 2.41,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 35.47,
+                    "nrmse": 3.93,
+                    "r2": -0.5258545233602998,
+                    "mape": 2.14,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 5.72,
+                        "nrmse": 0.63,
+                        "r2": 0.9603159267625522,
+                        "mape": 0.29,
+                        "prediction_time_per_sample": 0.1323
+                    }
+                }
+            }
+        },
+        "0.45": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 30.19,
+                    "nrmse": 3.35,
+                    "r2": -1.4394592844357845e-05,
+                    "mape": 1.9,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 31.28,
+                    "nrmse": 3.47,
+                    "r2": -0.07339143795492142,
+                    "mape": 1.66,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 30.19,
+                    "nrmse": 3.35,
+                    "r2": -1.4394592844357845e-05,
+                    "mape": 1.9,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 45.56,
+                    "nrmse": 5.05,
+                    "r2": -1.2771513609707341,
+                    "mape": 2.57,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 43.86,
+                    "nrmse": 4.86,
+                    "r2": -1.1104032658029084,
+                    "mape": 2.65,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 43.8,
+                    "nrmse": 4.86,
+                    "r2": -1.1050501973391755,
+                    "mape": 2.54,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 39.02,
+                    "nrmse": 4.33,
+                    "r2": -0.6700661026118615,
+                    "mape": 2.36,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 5.8,
+                        "nrmse": 0.64,
+                        "r2": 0.9630761225711585,
+                        "mape": 0.37,
+                        "prediction_time_per_sample": 0.1082
+                    }
+                }
+            }
+        },
+        "0.5": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 29.29,
+                    "nrmse": 3.25,
+                    "r2": -0.00020311971889297453,
+                    "mape": 1.87,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 30.34,
+                    "nrmse": 3.36,
+                    "r2": -0.07267937588660134,
+                    "mape": 1.61,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 29.29,
+                    "nrmse": 3.25,
+                    "r2": -0.00020311971889297453,
+                    "mape": 1.87,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 46.27,
+                    "nrmse": 5.13,
+                    "r2": -1.4954312912807035,
+                    "mape": 2.6,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 41.74,
+                    "nrmse": 4.63,
+                    "r2": -1.0304481172684175,
+                    "mape": 2.48,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 44.62,
+                    "nrmse": 4.95,
+                    "r2": -1.3209229017593112,
+                    "mape": 2.56,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 38.38,
+                    "nrmse": 4.26,
+                    "r2": -0.7168875129421624,
+                    "mape": 2.33,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 5.81,
+                        "nrmse": 0.64,
+                        "r2": 0.9606154749935171,
+                        "mape": 0.37,
+                        "prediction_time_per_sample": 0.1104
+                    }
+                }
+            }
+        }
+    },
+    "pr-go": {
+        "0.2": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 2791.14,
+                    "nrmse": 59.5,
+                    "r2": -0.0031282103221770274,
+                    "mape": 129.67,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 2791.69,
+                    "nrmse": 59.51,
+                    "r2": -0.0035272718419601112,
+                    "mape": 138.2,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 2791.14,
+                    "nrmse": 59.5,
+                    "r2": -0.0031282103221770274,
+                    "mape": 129.67,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 2292.83,
+                    "nrmse": 48.88,
+                    "r2": 0.32308111594869104,
+                    "mape": 37.22,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 2118.28,
+                    "nrmse": 45.16,
+                    "r2": 0.4222199089959331,
+                    "mape": 29.88,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 2205.88,
+                    "nrmse": 47.03,
+                    "r2": 0.3734479891597752,
+                    "mape": 34.65,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 1861.2,
+                    "nrmse": 39.68,
+                    "r2": 0.5539541938572151,
+                    "mape": 30.33,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 463.39,
+                        "nrmse": 9.88,
+                        "r2": 0.9723510424352696,
+                        "mape": 21.99,
+                        "prediction_time_per_sample": 0.248
+                    }
+                }
+            }
+        },
+        "0.25": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 2823.79,
+                    "nrmse": 60.68,
+                    "r2": -0.00171346379844306,
+                    "mape": 133.47,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 2832.08,
+                    "nrmse": 60.86,
+                    "r2": -0.007601086885987929,
+                    "mape": 143.54,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 2823.79,
+                    "nrmse": 60.68,
+                    "r2": -0.00171346379844306,
+                    "mape": 133.47,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 2276.67,
+                    "nrmse": 48.92,
+                    "r2": 0.3488542268894095,
+                    "mape": 36.26,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 2071.24,
+                    "nrmse": 44.51,
+                    "r2": 0.4610603755193825,
+                    "mape": 28.4,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 2192.25,
+                    "nrmse": 47.11,
+                    "r2": 0.3962476951514583,
+                    "mape": 34.48,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 1841.76,
+                    "nrmse": 39.58,
+                    "r2": 0.5738653081231673,
+                    "mape": 28.68,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 412.96,
+                        "nrmse": 8.87,
+                        "r2": 0.978576681755009,
+                        "mape": 21.91,
+                        "prediction_time_per_sample": 0.2016
+                    }
+                }
+            }
+        },
+        "0.3": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 2786.43,
+                    "nrmse": 58.9,
+                    "r2": -0.007164032840867307,
+                    "mape": 126.47,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 2778.83,
+                    "nrmse": 58.74,
+                    "r2": -0.0016716449489186935,
+                    "mape": 135.44,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 2786.43,
+                    "nrmse": 58.9,
+                    "r2": -0.007164032840867307,
+                    "mape": 126.47,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 2226.67,
+                    "nrmse": 47.07,
+                    "r2": 0.356847736017587,
+                    "mape": 34.92,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 2176.66,
+                    "nrmse": 46.01,
+                    "r2": 0.38541085299184863,
+                    "mape": 30.76,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 2163.61,
+                    "nrmse": 45.73,
+                    "r2": 0.39276065376533,
+                    "mape": 33.8,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 1895.12,
+                    "nrmse": 40.06,
+                    "r2": 0.534116565784149,
+                    "mape": 29.63,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 390.23,
+                        "nrmse": 8.25,
+                        "r2": 0.9802461942200864,
+                        "mape": 17.51,
+                        "prediction_time_per_sample": 0.1893
+                    }
+                }
+            }
+        },
+        "0.35": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 2804.84,
+                    "nrmse": 60.48,
+                    "r2": -0.0015439125088263506,
+                    "mape": 133.5,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 2820.13,
+                    "nrmse": 60.81,
+                    "r2": -0.012488524558419867,
+                    "mape": 145.49,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 2804.84,
+                    "nrmse": 60.48,
+                    "r2": -0.0015439125088263506,
+                    "mape": 133.5,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 2230.88,
+                    "nrmse": 48.1,
+                    "r2": 0.3664147765495258,
+                    "mape": 34.61,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 2080.02,
+                    "nrmse": 44.85,
+                    "r2": 0.44920547850572845,
+                    "mape": 29.63,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 2173.06,
+                    "nrmse": 46.86,
+                    "r2": 0.39882999005474074,
+                    "mape": 33.52,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 1872.29,
+                    "nrmse": 40.37,
+                    "r2": 0.5537270918323851,
+                    "mape": 29.3,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 445.29,
+                        "nrmse": 9.6,
+                        "r2": 0.9747567979466328,
+                        "mape": 23.49,
+                        "prediction_time_per_sample": 0.149
+                    }
+                }
+            }
+        },
+        "0.4": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 2824.84,
+                    "nrmse": 61.75,
+                    "r2": -2.679708912167733e-05,
+                    "mape": 138.79,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 2858.36,
+                    "nrmse": 62.48,
+                    "r2": -0.023900709712267654,
+                    "mape": 152.4,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 2824.84,
+                    "nrmse": 61.75,
+                    "r2": -2.679708912167733e-05,
+                    "mape": 138.79,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 2224.68,
+                    "nrmse": 48.63,
+                    "r2": 0.37975934430733127,
+                    "mape": 32.35,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 2082.69,
+                    "nrmse": 45.53,
+                    "r2": 0.4564053310236664,
+                    "mape": 28.93,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 2171.73,
+                    "nrmse": 47.47,
+                    "r2": 0.40893220547276055,
+                    "mape": 31.73,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 1880.27,
+                    "nrmse": 41.1,
+                    "r2": 0.5569387550950805,
+                    "mape": 27.92,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 597.31,
+                        "nrmse": 13.06,
+                        "r2": 0.9552884216544821,
+                        "mape": 33.59,
+                        "prediction_time_per_sample": 0.2471
+                    }
+                }
+            }
+        },
+        "0.45": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 2812.62,
+                    "nrmse": 61.74,
+                    "r2": -4.467269386343453e-05,
+                    "mape": 139.64,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 2846.76,
+                    "nrmse": 62.49,
+                    "r2": -0.024472708732479198,
+                    "mape": 152.31,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 2812.62,
+                    "nrmse": 61.74,
+                    "r2": -4.467269386343453e-05,
+                    "mape": 139.64,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 2220.83,
+                    "nrmse": 48.75,
+                    "r2": 0.3765117110334645,
+                    "mape": 32.87,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 2067.86,
+                    "nrmse": 45.39,
+                    "r2": 0.4594436418783505,
+                    "mape": 28.9,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 2182.97,
+                    "nrmse": 47.92,
+                    "r2": 0.39758665567765483,
+                    "mape": 32.39,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 1854.77,
+                    "nrmse": 40.71,
+                    "r2": 0.5651113190375626,
+                    "mape": 27.92,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 573.58,
+                        "nrmse": 12.59,
+                        "r2": 0.9584096416858506,
+                        "mape": 32.56,
+                        "prediction_time_per_sample": 0.1019
+                    }
+                }
+            }
+        },
+        "0.5": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 2824.48,
+                    "nrmse": 61.63,
+                    "r2": -0.00014085040163935858,
+                    "mape": 138.8,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 2850.0,
+                    "nrmse": 62.19,
+                    "r2": -0.018294769830208724,
+                    "mape": 151.11,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 2824.48,
+                    "nrmse": 61.63,
+                    "r2": -0.00014085040163935858,
+                    "mape": 138.8,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 2267.98,
+                    "nrmse": 49.49,
+                    "r2": 0.3551442148486841,
+                    "mape": 32.55,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 2082.64,
+                    "nrmse": 45.44,
+                    "r2": 0.4562316273291551,
+                    "mape": 29.1,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 2214.99,
+                    "nrmse": 48.33,
+                    "r2": 0.38492845481302107,
+                    "mape": 31.71,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 1898.6,
+                    "nrmse": 41.43,
+                    "r2": 0.5480937690116385,
+                    "mape": 28.01,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 704.31,
+                        "nrmse": 15.37,
+                        "r2": 0.9378112653104144,
+                        "mape": 40.14,
+                        "prediction_time_per_sample": 0.1078
+                    }
+                }
+            }
+        }
+    },
+    "sc-rn": {
+        "0.2": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 19.17,
+                    "nrmse": 2.1,
+                    "r2": -0.07695754202325622,
+                    "mape": 1.89,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 23.32,
+                    "nrmse": 2.56,
+                    "r2": -0.5938147872756296,
+                    "mape": 2.09,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 19.17,
+                    "nrmse": 2.1,
+                    "r2": -0.07695754202325622,
+                    "mape": 1.89,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 8.12,
+                    "nrmse": 0.89,
+                    "r2": 0.8069019431688847,
+                    "mape": 0.7,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 8.07,
+                    "nrmse": 0.88,
+                    "r2": 0.8092006889544527,
+                    "mape": 0.74,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 8.26,
+                    "nrmse": 0.91,
+                    "r2": 0.799969733523294,
+                    "mape": 0.68,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 7.49,
+                    "nrmse": 0.82,
+                    "r2": 0.8357074982848924,
+                    "mape": 0.68,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 7.95,
+                        "nrmse": 0.87,
+                        "r2": 0.8149333056702205,
+                        "mape": 0.68,
+                        "prediction_time_per_sample": 2.4806
+                    }
+                }
+            }
+        },
+        "0.25": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 19.0,
+                    "nrmse": 2.08,
+                    "r2": -0.1331298398319818,
+                    "mape": 1.9,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 23.43,
+                    "nrmse": 2.57,
+                    "r2": -0.7231499844310936,
+                    "mape": 2.14,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 19.0,
+                    "nrmse": 2.08,
+                    "r2": -0.1331298398319818,
+                    "mape": 1.9,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 8.02,
+                    "nrmse": 0.88,
+                    "r2": 0.7980752547877754,
+                    "mape": 0.7,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 8.02,
+                    "nrmse": 0.88,
+                    "r2": 0.7982333585798196,
+                    "mape": 0.76,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 8.43,
+                    "nrmse": 0.92,
+                    "r2": 0.7767290255834464,
+                    "mape": 0.74,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 7.15,
+                    "nrmse": 0.78,
+                    "r2": 0.839706993249874,
+                    "mape": 0.66,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 7.5,
+                        "nrmse": 0.82,
+                        "r2": 0.8232070640233603,
+                        "mape": 0.64,
+                        "prediction_time_per_sample": 2.3657
+                    }
+                }
+            }
+        },
+        "0.3": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 17.79,
+                    "nrmse": 1.95,
+                    "r2": -0.03144640508040375,
+                    "mape": 1.78,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 21.31,
+                    "nrmse": 2.34,
+                    "r2": -0.48050115187213116,
+                    "mape": 1.83,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 17.79,
+                    "nrmse": 1.95,
+                    "r2": -0.03144640508040375,
+                    "mape": 1.78,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 7.6,
+                    "nrmse": 0.84,
+                    "r2": 0.8115156114021812,
+                    "mape": 0.65,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 7.46,
+                    "nrmse": 0.82,
+                    "r2": 0.8185313206327276,
+                    "mape": 0.68,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 9.3,
+                    "nrmse": 1.02,
+                    "r2": 0.7182696306857715,
+                    "mape": 0.77,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 6.75,
+                    "nrmse": 0.74,
+                    "r2": 0.8512874692711301,
+                    "mape": 0.61,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 7.52,
+                        "nrmse": 0.83,
+                        "r2": 0.8158755158773883,
+                        "mape": 0.66,
+                        "prediction_time_per_sample": 1.8739
+                    }
+                }
+            }
+        },
+        "0.35": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 17.12,
+                    "nrmse": 1.88,
+                    "r2": -0.0033055157867043494,
+                    "mape": 1.73,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 17.3,
+                    "nrmse": 1.9,
+                    "r2": -0.024797420304545792,
+                    "mape": 1.72,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 17.12,
+                    "nrmse": 1.88,
+                    "r2": -0.0033055157867043494,
+                    "mape": 1.73,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 6.86,
+                    "nrmse": 0.75,
+                    "r2": 0.8388362836311255,
+                    "mape": 0.58,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 7.02,
+                    "nrmse": 0.77,
+                    "r2": 0.8312471439645659,
+                    "mape": 0.61,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 8.43,
+                    "nrmse": 0.93,
+                    "r2": 0.7569049948391131,
+                    "mape": 0.68,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 6.17,
+                    "nrmse": 0.68,
+                    "r2": 0.8694668693623558,
+                    "mape": 0.53,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 6.93,
+                        "nrmse": 0.76,
+                        "r2": 0.835483013136429,
+                        "mape": 0.59,
+                        "prediction_time_per_sample": 1.6295
+                    }
+                }
+            }
+        },
+        "0.4": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 17.03,
+                    "nrmse": 1.87,
+                    "r2": -0.007901625549502578,
+                    "mape": 1.72,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 17.9,
+                    "nrmse": 1.97,
+                    "r2": -0.11458446458181704,
+                    "mape": 1.69,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 17.03,
+                    "nrmse": 1.87,
+                    "r2": -0.007901625549502578,
+                    "mape": 1.72,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 10.95,
+                    "nrmse": 1.2,
+                    "r2": 0.5832578644346462,
+                    "mape": 0.79,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 6.76,
+                    "nrmse": 0.74,
+                    "r2": 0.8408929912353782,
+                    "mape": 0.58,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 11.87,
+                    "nrmse": 1.31,
+                    "r2": 0.5102696579129866,
+                    "mape": 0.88,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 7.74,
+                    "nrmse": 0.85,
+                    "r2": 0.7916019979692777,
+                    "mape": 0.63,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 7.55,
+                        "nrmse": 0.83,
+                        "r2": 0.8019461768241167,
+                        "mape": 0.63,
+                        "prediction_time_per_sample": 1.4269
+                    }
+                }
+            }
+        },
+        "0.45": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 19.27,
+                    "nrmse": 2.12,
+                    "r2": -0.0027596915014842516,
+                    "mape": 1.84,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 19.71,
+                    "nrmse": 2.17,
+                    "r2": -0.049135462934624785,
+                    "mape": 1.8,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 19.27,
+                    "nrmse": 2.12,
+                    "r2": -0.0027596915014842516,
+                    "mape": 1.84,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 13.17,
+                    "nrmse": 1.45,
+                    "r2": 0.531558955492035,
+                    "mape": 0.92,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 10.61,
+                    "nrmse": 1.17,
+                    "r2": 0.6959525681562433,
+                    "mape": 0.72,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 13.48,
+                    "nrmse": 1.49,
+                    "r2": 0.5091672294534544,
+                    "mape": 0.94,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 11.06,
+                    "nrmse": 1.22,
+                    "r2": 0.6696670973455512,
+                    "mape": 0.77,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 10.52,
+                        "nrmse": 1.16,
+                        "r2": 0.7011828811364498,
+                        "mape": 0.83,
+                        "prediction_time_per_sample": 1.2101
+                    }
+                }
+            }
+        },
+        "0.5": {
+            "baseline": {
+                "Mean": {
+                    "rmse": 19.25,
+                    "nrmse": 2.12,
+                    "r2": -0.0015518392382802837,
+                    "mape": 1.85,
+                    "prediction_time_per_sample": null
+                },
+                "Median": {
+                    "rmse": 19.25,
+                    "nrmse": 2.12,
+                    "r2": -0.0011721816476562008,
+                    "mape": 1.85,
+                    "prediction_time_per_sample": null
+                },
+                "KNNImputer": {
+                    "rmse": 19.25,
+                    "nrmse": 2.12,
+                    "r2": -0.0015518392382802837,
+                    "mape": 1.85,
+                    "prediction_time_per_sample": null
+                },
+                "ForwardFill": {
+                    "rmse": 12.69,
+                    "nrmse": 1.4,
+                    "r2": 0.5647230520895044,
+                    "mape": 0.89,
+                    "prediction_time_per_sample": null
+                },
+                "BackwardFill": {
+                    "rmse": 10.54,
+                    "nrmse": 1.16,
+                    "r2": 0.6996782424243801,
+                    "mape": 0.75,
+                    "prediction_time_per_sample": null
+                },
+                "RollingMean": {
+                    "rmse": 12.77,
+                    "nrmse": 1.41,
+                    "r2": 0.5595903294219338,
+                    "mape": 0.89,
+                    "prediction_time_per_sample": null
+                },
+                "LinearInterpolation": {
+                    "rmse": 10.71,
+                    "nrmse": 1.18,
+                    "r2": 0.6900513045530571,
+                    "mape": 0.75,
+                    "prediction_time_per_sample": null
+                }
+            },
+            "stacking": {
+                "mean": {
+                    "StackingRegressor": {
+                        "rmse": 9.2,
+                        "nrmse": 1.01,
+                        "r2": 0.771082500373505,
+                        "mape": 0.69,
+                        "prediction_time_per_sample": 1.0921
+                    }
+                }
+            }
+        }
+    }
+}
