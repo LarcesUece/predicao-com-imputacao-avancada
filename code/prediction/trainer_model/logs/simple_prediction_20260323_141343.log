@@ -1,0 +1,3 @@
+2026-03-23 14:13:43 |    INFO | Starting simple script
+2026-03-23 14:13:43 |    INFO | Allowed baseline methods: ['bfill', 'ffill', 'knn', 'mean', 'median']
+2026-03-23 14:13:43 |   ERROR | No CSV files found.

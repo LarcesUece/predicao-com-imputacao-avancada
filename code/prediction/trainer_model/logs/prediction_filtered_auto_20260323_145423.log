@@ -1,0 +1,43 @@
+2026-03-23 14:54:23,034 |    INFO | Starting automatic filtered experiment
+2026-03-23 14:54:23,039 |    INFO | Selected 5 links from simple_comparison_summary.csv
+2026-03-23 14:54:23,039 |    INFO | 
+======================================================================
+2026-03-23 14:54:23,039 |    INFO | Processing link=am-rn | previous improvement=-292.2994%
+2026-03-23 14:54:23,039 |    INFO | Baseline: method=ffill, model=LSTM | Stacking: model=GRU
+2026-03-23 14:54:23,039 |    INFO | ======================================================================
+2026-03-23 14:54:23,049 |    INFO | [am-rn][baseline] file=am-rn_baseline_ffill.csv
+2026-03-23 14:54:23,049 |    INFO | [am-rn][baseline] model=LSTM
+2026-03-23 14:54:23,049 |    INFO | [am-rn][baseline] ref_params={'window': 12, 'hidden_size': 64, 'num_layers': 2, 'dropout': 0.1, 'lr': 0.001, 'epochs': 25}
+2026-03-23 14:54:23,049 |    INFO | [am-rn][baseline] search_ranges={'window': (6, 24), 'hidden_size': (32, 96), 'num_layers': (1, 3), 'dropout': (0.0, 0.25), 'lr': (0.0001, 0.01), 'epochs': (15, 35)}
+2026-03-23 14:57:06,133 |    INFO | [am-rn][baseline] best_params={'window': 19, 'hidden_size': 50, 'num_layers': 2, 'dropout': 0.1256645014268244, 'lr': 0.0006848807788414522, 'epochs': 32} | RMSE=0.008184 MAE=0.007674 R2=-2070716572090273082900480.0000
+2026-03-23 14:57:06,135 |    INFO | [am-rn][stacking] file=am-rn_stacking.csv
+2026-03-23 14:57:06,135 |    INFO | [am-rn][stacking] model=GRU
+2026-03-23 14:57:06,135 |    INFO | [am-rn][stacking] ref_params={'window': 12, 'hidden_size': 64, 'num_layers': 2, 'dropout': 0.1, 'lr': 0.001, 'epochs': 25}
+2026-03-23 14:57:06,135 |    INFO | [am-rn][stacking] search_ranges={'window': (6, 24), 'hidden_size': (32, 96), 'num_layers': (1, 3), 'dropout': (0.0, 0.25), 'lr': (0.0001, 0.01), 'epochs': (15, 35)}
+2026-03-23 15:01:46,509 |    INFO | [am-rn][stacking] best_params={'window': 18, 'hidden_size': 76, 'num_layers': 2, 'dropout': 0.08231951417416887, 'lr': 0.00022901082293561942, 'epochs': 35} | RMSE=0.014375 MAE=0.008602 R2=0.0000
+2026-03-23 15:01:46,509 |    INFO | [am-rn] previous improvement=-292.2994% | new improvement=-75.6431% | delta=216.6564 p.p.
+2026-03-23 15:01:46,509 |    INFO | 
+======================================================================
+2026-03-23 15:01:46,509 |    INFO | Processing link=pr-go | previous improvement=-13.1686%
+2026-03-23 15:01:46,509 |    INFO | Baseline: method=median, model=RandomForest | Stacking: model=GRU
+2026-03-23 15:01:46,509 |    INFO | ======================================================================
+2026-03-23 15:01:46,510 |    INFO | [pr-go][baseline] file=pr-go_baseline_median.csv
+2026-03-23 15:01:46,510 |    INFO | [pr-go][baseline] model=RandomForest
+2026-03-23 15:01:46,510 |    INFO | [pr-go][baseline] ref_params={'n_estimators': 300, 'max_depth': None, 'max_features': 'sqrt'}
+2026-03-23 15:01:46,510 |    INFO | [pr-go][baseline] search_ranges={'n_estimators': (220, 380), 'max_depth': (4, 20), 'min_samples_leaf': (1, 6)}
+2026-03-23 15:03:32,761 |    INFO | [pr-go][baseline] best_params={'n_estimators': 366, 'max_depth': 19, 'min_samples_leaf': 2} | RMSE=2.848971 MAE=0.820406 R2=-9303004176730005350920486912.0000
+2026-03-23 15:03:32,763 |    INFO | [pr-go][stacking] file=pr-go_stacking.csv
+2026-03-23 15:03:32,763 |    INFO | [pr-go][stacking] model=GRU
+2026-03-23 15:03:32,763 |    INFO | [pr-go][stacking] ref_params={'window': 12, 'hidden_size': 64, 'num_layers': 2, 'dropout': 0.1, 'lr': 0.001, 'epochs': 25}
+2026-03-23 15:03:32,763 |    INFO | [pr-go][stacking] search_ranges={'window': (6, 24), 'hidden_size': (32, 96), 'num_layers': (1, 3), 'dropout': (0.0, 0.25), 'lr': (0.0001, 0.01), 'epochs': (15, 35)}
+2026-03-23 15:16:00,535 |    INFO | [pr-go][stacking] best_params={'window': 16, 'hidden_size': 95, 'num_layers': 2, 'dropout': 0.1292496360477775, 'lr': 0.002900478530304906, 'epochs': 28} | RMSE=2.192925 MAE=0.878943 R2=-8992286992417568203208654848.0000
+2026-03-23 15:16:00,535 |    INFO | [pr-go] previous improvement=-13.1686% | new improvement=23.0274% | delta=36.1960 p.p.
+2026-03-23 15:16:00,536 |    INFO | 
+======================================================================
+2026-03-23 15:16:00,536 |    INFO | Processing link=mt-sc | previous improvement=-0.7239%
+2026-03-23 15:16:00,536 |    INFO | Baseline: method=mean, model=GRU | Stacking: model=LSTM
+2026-03-23 15:16:00,536 |    INFO | ======================================================================
+2026-03-23 15:16:00,537 |    INFO | [mt-sc][baseline] file=mt-sc_baseline_mean.csv
+2026-03-23 15:16:00,537 |    INFO | [mt-sc][baseline] model=GRU
+2026-03-23 15:16:00,537 |    INFO | [mt-sc][baseline] ref_params={'window': 12, 'hidden_size': 64, 'num_layers': 2, 'dropout': 0.1, 'lr': 0.001, 'epochs': 25}
+2026-03-23 15:16:00,537 |    INFO | [mt-sc][baseline] search_ranges={'window': (6, 24), 'hidden_size': (32, 96), 'num_layers': (1, 3), 'dropout': (0.0, 0.25), 'lr': (0.0001, 0.01), 'epochs': (15, 35)}
