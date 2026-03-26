@@ -59,71 +59,7 @@
                         "nrmse": 4.12,
                         "r2": 0.5307991392679003,
                         "mape": 2.61,
-                        "prediction_time_per_sample": 21.8384
-                    }
-                }
-            }
-        },
-        "0.25": {
-            "baseline": {
-                "Mean": {
-                    "rmse": 51.19,
-                    "nrmse": 5.93,
-                    "r2": -0.01676675898746227,
-                    "mape": 5.2,
-                    "prediction_time_per_sample": null
-                },
-                "Median": {
-                    "rmse": 51.0,
-                    "nrmse": 5.91,
-                    "r2": -0.009313371190677433,
-                    "mape": 5.18,
-                    "prediction_time_per_sample": null
-                },
-                "KNNImputer": {
-                    "rmse": 51.19,
-                    "nrmse": 5.93,
-                    "r2": -0.01676675898746227,
-                    "mape": 5.2,
-                    "prediction_time_per_sample": null
-                },
-                "ForwardFill": {
-                    "rmse": 36.14,
-                    "nrmse": 4.19,
-                    "r2": 0.4931866077365188,
-                    "mape": 3.25,
-                    "prediction_time_per_sample": null
-                },
-                "BackwardFill": {
-                    "rmse": 24.4,
-                    "nrmse": 2.83,
-                    "r2": 0.7690542689294718,
-                    "mape": 2.04,
-                    "prediction_time_per_sample": null
-                },
-                "RollingMean": {
-                    "rmse": 28.12,
-                    "nrmse": 3.26,
-                    "r2": 0.6932284060440417,
-                    "mape": 2.38,
-                    "prediction_time_per_sample": null
-                },
-                "LinearInterpolation": {
-                    "rmse": 26.77,
-                    "nrmse": 3.1,
-                    "r2": 0.7218774500288818,
-                    "mape": 2.3,
-                    "prediction_time_per_sample": null
-                }
-            },
-            "stacking": {
-                "mean": {
-                    "StackingRegressor": {
-                        "rmse": 39.34,
-                        "nrmse": 4.56,
-                        "r2": 0.3994660791864578,
-                        "mape": 2.96,
-                        "prediction_time_per_sample": 1.9391
+                        "prediction_time_per_sample": 22.9115
                     }
                 }
             }
@@ -187,71 +123,7 @@
                         "nrmse": 4.15,
                         "r2": 0.4987993434148542,
                         "mape": 2.6,
-                        "prediction_time_per_sample": 1.5495
-                    }
-                }
-            }
-        },
-        "0.35": {
-            "baseline": {
-                "Mean": {
-                    "rmse": 50.45,
-                    "nrmse": 5.85,
-                    "r2": -0.02293368452703226,
-                    "mape": 5.12,
-                    "prediction_time_per_sample": null
-                },
-                "Median": {
-                    "rmse": 50.14,
-                    "nrmse": 5.81,
-                    "r2": -0.010335191915693098,
-                    "mape": 5.09,
-                    "prediction_time_per_sample": null
-                },
-                "KNNImputer": {
-                    "rmse": 50.45,
-                    "nrmse": 5.85,
-                    "r2": -0.02293368452703226,
-                    "mape": 5.12,
-                    "prediction_time_per_sample": null
-                },
-                "ForwardFill": {
-                    "rmse": 33.94,
-                    "nrmse": 3.93,
-                    "r2": 0.5370958727265511,
-                    "mape": 2.91,
-                    "prediction_time_per_sample": null
-                },
-                "BackwardFill": {
-                    "rmse": 31.62,
-                    "nrmse": 3.66,
-                    "r2": 0.5980838035395024,
-                    "mape": 2.6,
-                    "prediction_time_per_sample": null
-                },
-                "RollingMean": {
-                    "rmse": 30.32,
-                    "nrmse": 3.51,
-                    "r2": 0.6304136530555747,
-                    "mape": 2.46,
-                    "prediction_time_per_sample": null
-                },
-                "LinearInterpolation": {
-                    "rmse": 30.67,
-                    "nrmse": 3.55,
-                    "r2": 0.6218224860387133,
-                    "mape": 2.6,
-                    "prediction_time_per_sample": null
-                }
-            },
-            "stacking": {
-                "mean": {
-                    "StackingRegressor": {
-                        "rmse": 36.19,
-                        "nrmse": 4.19,
-                        "r2": 0.47356025463961904,
-                        "mape": 2.83,
-                        "prediction_time_per_sample": 1.6498
+                        "prediction_time_per_sample": 1.6501
                     }
                 }
             }
@@ -315,71 +187,7 @@
                         "nrmse": 3.58,
                         "r2": 0.6164051862906121,
                         "mape": 2.49,
-                        "prediction_time_per_sample": 1.3292
-                    }
-                }
-            }
-        },
-        "0.45": {
-            "baseline": {
-                "Mean": {
-                    "rmse": 53.94,
-                    "nrmse": 6.21,
-                    "r2": -0.1534994900240596,
-                    "mape": 5.4,
-                    "prediction_time_per_sample": null
-                },
-                "Median": {
-                    "rmse": 53.47,
-                    "nrmse": 6.15,
-                    "r2": -0.13363860147775974,
-                    "mape": 5.37,
-                    "prediction_time_per_sample": null
-                },
-                "KNNImputer": {
-                    "rmse": 53.94,
-                    "nrmse": 6.21,
-                    "r2": -0.1534994900240596,
-                    "mape": 5.4,
-                    "prediction_time_per_sample": null
-                },
-                "ForwardFill": {
-                    "rmse": 33.24,
-                    "nrmse": 3.83,
-                    "r2": 0.5617844553612839,
-                    "mape": 2.8,
-                    "prediction_time_per_sample": null
-                },
-                "BackwardFill": {
-                    "rmse": 54.45,
-                    "nrmse": 6.27,
-                    "r2": -0.17543262614214972,
-                    "mape": 3.75,
-                    "prediction_time_per_sample": null
-                },
-                "RollingMean": {
-                    "rmse": 30.17,
-                    "nrmse": 3.47,
-                    "r2": 0.6391557023378391,
-                    "mape": 2.45,
-                    "prediction_time_per_sample": null
-                },
-                "LinearInterpolation": {
-                    "rmse": 39.07,
-                    "nrmse": 4.5,
-                    "r2": 0.39474073608543214,
-                    "mape": 3.16,
-                    "prediction_time_per_sample": null
-                }
-            },
-            "stacking": {
-                "mean": {
-                    "StackingRegressor": {
-                        "rmse": 27.64,
-                        "nrmse": 3.18,
-                        "r2": 0.696996886136905,
-                        "mape": 2.38,
-                        "prediction_time_per_sample": 1.2459
+                        "prediction_time_per_sample": 1.3
                     }
                 }
             }
@@ -443,7 +251,7 @@
                         "nrmse": 4.5,
                         "r2": 0.43208443650965567,
                         "mape": 3.79,
-                        "prediction_time_per_sample": 0.9768
+                        "prediction_time_per_sample": 0.9795
                     }
                 }
             }
@@ -507,73 +315,9 @@
                     "StackingRegressor": {
                         "rmse": 74.57,
                         "nrmse": 8.66,
-                        "r2": 0.6003265643238803,
+                        "r2": 0.6003265643238804,
                         "mape": 8.28,
-                        "prediction_time_per_sample": 1.9369
-                    }
-                }
-            }
-        },
-        "0.25": {
-            "baseline": {
-                "Mean": {
-                    "rmse": 225.19,
-                    "nrmse": 28.36,
-                    "r2": -0.08898458805455012,
-                    "mape": 38.23,
-                    "prediction_time_per_sample": null
-                },
-                "Median": {
-                    "rmse": 241.17,
-                    "nrmse": 30.37,
-                    "r2": -0.24903749233621575,
-                    "mape": 36.65,
-                    "prediction_time_per_sample": null
-                },
-                "KNNImputer": {
-                    "rmse": 225.19,
-                    "nrmse": 28.36,
-                    "r2": -0.08898458805455012,
-                    "mape": 38.23,
-                    "prediction_time_per_sample": null
-                },
-                "ForwardFill": {
-                    "rmse": 227.81,
-                    "nrmse": 28.68,
-                    "r2": -0.11439719435867435,
-                    "mape": 16.0,
-                    "prediction_time_per_sample": null
-                },
-                "BackwardFill": {
-                    "rmse": 253.05,
-                    "nrmse": 31.86,
-                    "r2": -0.3750502382435006,
-                    "mape": 33.43,
-                    "prediction_time_per_sample": null
-                },
-                "RollingMean": {
-                    "rmse": 217.35,
-                    "nrmse": 27.37,
-                    "r2": -0.014440985180693033,
-                    "mape": 16.65,
-                    "prediction_time_per_sample": null
-                },
-                "LinearInterpolation": {
-                    "rmse": 192.17,
-                    "nrmse": 24.2,
-                    "r2": 0.20700204025455082,
-                    "mape": 17.91,
-                    "prediction_time_per_sample": null
-                }
-            },
-            "stacking": {
-                "mean": {
-                    "StackingRegressor": {
-                        "rmse": 152.82,
-                        "nrmse": 19.24,
-                        "r2": 0.4984724735234456,
-                        "mape": 21.71,
-                        "prediction_time_per_sample": 2.5118
+                        "prediction_time_per_sample": 2.7539
                     }
                 }
             }
@@ -637,71 +381,7 @@
                         "nrmse": 15.83,
                         "r2": 0.7135768496068945,
                         "mape": 21.28,
-                        "prediction_time_per_sample": 1.7524
-                    }
-                }
-            }
-        },
-        "0.35": {
-            "baseline": {
-                "Mean": {
-                    "rmse": 270.59,
-                    "nrmse": 36.03,
-                    "r2": -0.0009161370346040254,
-                    "mape": 65.48,
-                    "prediction_time_per_sample": null
-                },
-                "Median": {
-                    "rmse": 309.6,
-                    "nrmse": 41.22,
-                    "r2": -0.3102740215789992,
-                    "mape": 71.17,
-                    "prediction_time_per_sample": null
-                },
-                "KNNImputer": {
-                    "rmse": 270.59,
-                    "nrmse": 36.03,
-                    "r2": -0.0009161370346040254,
-                    "mape": 65.48,
-                    "prediction_time_per_sample": null
-                },
-                "ForwardFill": {
-                    "rmse": 202.68,
-                    "nrmse": 26.99,
-                    "r2": 0.43845400271802826,
-                    "mape": 19.31,
-                    "prediction_time_per_sample": null
-                },
-                "BackwardFill": {
-                    "rmse": 264.09,
-                    "nrmse": 35.16,
-                    "r2": 0.04661204824089982,
-                    "mape": 44.71,
-                    "prediction_time_per_sample": null
-                },
-                "RollingMean": {
-                    "rmse": 198.03,
-                    "nrmse": 26.37,
-                    "r2": 0.46393019387375856,
-                    "mape": 23.47,
-                    "prediction_time_per_sample": null
-                },
-                "LinearInterpolation": {
-                    "rmse": 183.73,
-                    "nrmse": 24.46,
-                    "r2": 0.5385699412103553,
-                    "mape": 29.01,
-                    "prediction_time_per_sample": null
-                }
-            },
-            "stacking": {
-                "mean": {
-                    "StackingRegressor": {
-                        "rmse": 117.16,
-                        "nrmse": 15.6,
-                        "r2": 0.8123703288375317,
-                        "mape": 22.2,
-                        "prediction_time_per_sample": 1.5421
+                        "prediction_time_per_sample": 1.9478
                     }
                 }
             }
@@ -763,73 +443,9 @@
                     "StackingRegressor": {
                         "rmse": 103.79,
                         "nrmse": 14.52,
-                        "r2": 0.8695409887308003,
+                        "r2": 0.8695409887308004,
                         "mape": 20.71,
-                        "prediction_time_per_sample": 1.5421
-                    }
-                }
-            }
-        },
-        "0.45": {
-            "baseline": {
-                "Mean": {
-                    "rmse": 291.74,
-                    "nrmse": 40.59,
-                    "r2": -0.028597527201825068,
-                    "mape": 74.84,
-                    "prediction_time_per_sample": null
-                },
-                "Median": {
-                    "rmse": 341.04,
-                    "nrmse": 47.45,
-                    "r2": -0.40557074035107665,
-                    "mape": 83.03,
-                    "prediction_time_per_sample": null
-                },
-                "KNNImputer": {
-                    "rmse": 291.74,
-                    "nrmse": 40.59,
-                    "r2": -0.028597527201825068,
-                    "mape": 74.84,
-                    "prediction_time_per_sample": null
-                },
-                "ForwardFill": {
-                    "rmse": 207.53,
-                    "nrmse": 28.88,
-                    "r2": 0.47950305566051865,
-                    "mape": 33.98,
-                    "prediction_time_per_sample": null
-                },
-                "BackwardFill": {
-                    "rmse": 339.19,
-                    "nrmse": 47.2,
-                    "r2": -0.3903782507052722,
-                    "mape": 71.46,
-                    "prediction_time_per_sample": null
-                },
-                "RollingMean": {
-                    "rmse": 221.13,
-                    "nrmse": 30.77,
-                    "r2": 0.40908395329749003,
-                    "mape": 40.34,
-                    "prediction_time_per_sample": null
-                },
-                "LinearInterpolation": {
-                    "rmse": 235.6,
-                    "nrmse": 32.78,
-                    "r2": 0.32918291764925545,
-                    "mape": 49.11,
-                    "prediction_time_per_sample": null
-                }
-            },
-            "stacking": {
-                "mean": {
-                    "StackingRegressor": {
-                        "rmse": 152.77,
-                        "nrmse": 21.26,
-                        "r2": 0.7179407381700711,
-                        "mape": 30.36,
-                        "prediction_time_per_sample": 1.3828
+                        "prediction_time_per_sample": 1.4679
                     }
                 }
             }
@@ -893,7 +509,7 @@
                         "nrmse": 26.39,
                         "r2": 0.5650532307814244,
                         "mape": 39.92,
-                        "prediction_time_per_sample": 1.1373
+                        "prediction_time_per_sample": 1.0762
                     }
                 }
             }
@@ -959,71 +575,7 @@
                         "nrmse": 0.75,
                         "r2": 0.9400742204740458,
                         "mape": 0.3,
-                        "prediction_time_per_sample": 0.2143
-                    }
-                }
-            }
-        },
-        "0.25": {
-            "baseline": {
-                "Mean": {
-                    "rmse": 26.22,
-                    "nrmse": 2.9,
-                    "r2": -0.012195068796713837,
-                    "mape": 1.76,
-                    "prediction_time_per_sample": null
-                },
-                "Median": {
-                    "rmse": 26.65,
-                    "nrmse": 2.95,
-                    "r2": -0.04580223884525747,
-                    "mape": 1.43,
-                    "prediction_time_per_sample": null
-                },
-                "KNNImputer": {
-                    "rmse": 26.22,
-                    "nrmse": 2.9,
-                    "r2": -0.012195068796713837,
-                    "mape": 1.76,
-                    "prediction_time_per_sample": null
-                },
-                "ForwardFill": {
-                    "rmse": 41.97,
-                    "nrmse": 4.64,
-                    "r2": -1.5930935005145663,
-                    "mape": 2.35,
-                    "prediction_time_per_sample": null
-                },
-                "BackwardFill": {
-                    "rmse": 39.65,
-                    "nrmse": 4.39,
-                    "r2": -1.3139153446279903,
-                    "mape": 2.32,
-                    "prediction_time_per_sample": null
-                },
-                "RollingMean": {
-                    "rmse": 38.63,
-                    "nrmse": 4.27,
-                    "r2": -1.1974394422347947,
-                    "mape": 2.29,
-                    "prediction_time_per_sample": null
-                },
-                "LinearInterpolation": {
-                    "rmse": 34.18,
-                    "nrmse": 3.78,
-                    "r2": -0.7200381955378894,
-                    "mape": 2.11,
-                    "prediction_time_per_sample": null
-                }
-            },
-            "stacking": {
-                "mean": {
-                    "StackingRegressor": {
-                        "rmse": 4.76,
-                        "nrmse": 0.53,
-                        "r2": 0.9666935925269751,
-                        "mape": 0.27,
-                        "prediction_time_per_sample": 0.155
+                        "prediction_time_per_sample": 0.2612
                     }
                 }
             }
@@ -1087,71 +639,7 @@
                         "nrmse": 0.68,
                         "r2": 0.9567791703979958,
                         "mape": 0.29,
-                        "prediction_time_per_sample": 0.1656
-                    }
-                }
-            }
-        },
-        "0.35": {
-            "baseline": {
-                "Mean": {
-                    "rmse": 28.85,
-                    "nrmse": 3.2,
-                    "r2": -0.003252708687728312,
-                    "mape": 1.84,
-                    "prediction_time_per_sample": null
-                },
-                "Median": {
-                    "rmse": 29.58,
-                    "nrmse": 3.28,
-                    "r2": -0.05442121701271918,
-                    "mape": 1.53,
-                    "prediction_time_per_sample": null
-                },
-                "KNNImputer": {
-                    "rmse": 28.85,
-                    "nrmse": 3.2,
-                    "r2": -0.003252708687728312,
-                    "mape": 1.84,
-                    "prediction_time_per_sample": null
-                },
-                "ForwardFill": {
-                    "rmse": 46.91,
-                    "nrmse": 5.2,
-                    "r2": -1.6522736440339796,
-                    "mape": 2.59,
-                    "prediction_time_per_sample": null
-                },
-                "BackwardFill": {
-                    "rmse": 39.89,
-                    "nrmse": 4.42,
-                    "r2": -0.9173933637823393,
-                    "mape": 2.33,
-                    "prediction_time_per_sample": null
-                },
-                "RollingMean": {
-                    "rmse": 43.99,
-                    "nrmse": 4.87,
-                    "r2": -1.3318751816419532,
-                    "mape": 2.53,
-                    "prediction_time_per_sample": null
-                },
-                "LinearInterpolation": {
-                    "rmse": 36.71,
-                    "nrmse": 4.07,
-                    "r2": -0.62426978143392,
-                    "mape": 2.18,
-                    "prediction_time_per_sample": null
-                }
-            },
-            "stacking": {
-                "mean": {
-                    "StackingRegressor": {
-                        "rmse": 6.01,
-                        "nrmse": 0.67,
-                        "r2": 0.956463678938257,
-                        "mape": 0.3,
-                        "prediction_time_per_sample": 0.1227
+                        "prediction_time_per_sample": 0.1283
                     }
                 }
             }
@@ -1215,71 +703,7 @@
                         "nrmse": 0.63,
                         "r2": 0.9603159267625522,
                         "mape": 0.29,
-                        "prediction_time_per_sample": 0.1323
-                    }
-                }
-            }
-        },
-        "0.45": {
-            "baseline": {
-                "Mean": {
-                    "rmse": 30.19,
-                    "nrmse": 3.35,
-                    "r2": -1.4394592844357845e-05,
-                    "mape": 1.9,
-                    "prediction_time_per_sample": null
-                },
-                "Median": {
-                    "rmse": 31.28,
-                    "nrmse": 3.47,
-                    "r2": -0.07339143795492142,
-                    "mape": 1.66,
-                    "prediction_time_per_sample": null
-                },
-                "KNNImputer": {
-                    "rmse": 30.19,
-                    "nrmse": 3.35,
-                    "r2": -1.4394592844357845e-05,
-                    "mape": 1.9,
-                    "prediction_time_per_sample": null
-                },
-                "ForwardFill": {
-                    "rmse": 45.56,
-                    "nrmse": 5.05,
-                    "r2": -1.2771513609707341,
-                    "mape": 2.57,
-                    "prediction_time_per_sample": null
-                },
-                "BackwardFill": {
-                    "rmse": 43.86,
-                    "nrmse": 4.86,
-                    "r2": -1.1104032658029084,
-                    "mape": 2.65,
-                    "prediction_time_per_sample": null
-                },
-                "RollingMean": {
-                    "rmse": 43.8,
-                    "nrmse": 4.86,
-                    "r2": -1.1050501973391755,
-                    "mape": 2.54,
-                    "prediction_time_per_sample": null
-                },
-                "LinearInterpolation": {
-                    "rmse": 39.02,
-                    "nrmse": 4.33,
-                    "r2": -0.6700661026118615,
-                    "mape": 2.36,
-                    "prediction_time_per_sample": null
-                }
-            },
-            "stacking": {
-                "mean": {
-                    "StackingRegressor": {
-                        "rmse": 5.8,
-                        "nrmse": 0.64,
-                        "r2": 0.9630761225711585,
-                        "mape": 0.37,
-                        "prediction_time_per_sample": 0.1082
+                        "prediction_time_per_sample": 0.1462
                     }
                 }
             }
@@ -1343,7 +767,7 @@
                         "nrmse": 0.64,
                         "r2": 0.9606154749935171,
                         "mape": 0.37,
-                        "prediction_time_per_sample": 0.1104
+                        "prediction_time_per_sample": 0.1149
                     }
                 }
             }
@@ -1409,71 +833,7 @@
                         "nrmse": 9.88,
                         "r2": 0.9723510424352696,
                         "mape": 21.99,
-                        "prediction_time_per_sample": 0.248
-                    }
-                }
-            }
-        },
-        "0.25": {
-            "baseline": {
-                "Mean": {
-                    "rmse": 2823.79,
-                    "nrmse": 60.68,
-                    "r2": -0.00171346379844306,
-                    "mape": 133.47,
-                    "prediction_time_per_sample": null
-                },
-                "Median": {
-                    "rmse": 2832.08,
-                    "nrmse": 60.86,
-                    "r2": -0.007601086885987929,
-                    "mape": 143.54,
-                    "prediction_time_per_sample": null
-                },
-                "KNNImputer": {
-                    "rmse": 2823.79,
-                    "nrmse": 60.68,
-                    "r2": -0.00171346379844306,
-                    "mape": 133.47,
-                    "prediction_time_per_sample": null
-                },
-                "ForwardFill": {
-                    "rmse": 2276.67,
-                    "nrmse": 48.92,
-                    "r2": 0.3488542268894095,
-                    "mape": 36.26,
-                    "prediction_time_per_sample": null
-                },
-                "BackwardFill": {
-                    "rmse": 2071.24,
-                    "nrmse": 44.51,
-                    "r2": 0.4610603755193825,
-                    "mape": 28.4,
-                    "prediction_time_per_sample": null
-                },
-                "RollingMean": {
-                    "rmse": 2192.25,
-                    "nrmse": 47.11,
-                    "r2": 0.3962476951514583,
-                    "mape": 34.48,
-                    "prediction_time_per_sample": null
-                },
-                "LinearInterpolation": {
-                    "rmse": 1841.76,
-                    "nrmse": 39.58,
-                    "r2": 0.5738653081231673,
-                    "mape": 28.68,
-                    "prediction_time_per_sample": null
-                }
-            },
-            "stacking": {
-                "mean": {
-                    "StackingRegressor": {
-                        "rmse": 412.96,
-                        "nrmse": 8.87,
-                        "r2": 0.978576681755009,
-                        "mape": 21.91,
-                        "prediction_time_per_sample": 0.2016
+                        "prediction_time_per_sample": 0.3038
                     }
                 }
             }
@@ -1537,71 +897,7 @@
                         "nrmse": 8.25,
                         "r2": 0.9802461942200864,
                         "mape": 17.51,
-                        "prediction_time_per_sample": 0.1893
-                    }
-                }
-            }
-        },
-        "0.35": {
-            "baseline": {
-                "Mean": {
-                    "rmse": 2804.84,
-                    "nrmse": 60.48,
-                    "r2": -0.0015439125088263506,
-                    "mape": 133.5,
-                    "prediction_time_per_sample": null
-                },
-                "Median": {
-                    "rmse": 2820.13,
-                    "nrmse": 60.81,
-                    "r2": -0.012488524558419867,
-                    "mape": 145.49,
-                    "prediction_time_per_sample": null
-                },
-                "KNNImputer": {
-                    "rmse": 2804.84,
-                    "nrmse": 60.48,
-                    "r2": -0.0015439125088263506,
-                    "mape": 133.5,
-                    "prediction_time_per_sample": null
-                },
-                "ForwardFill": {
-                    "rmse": 2230.88,
-                    "nrmse": 48.1,
-                    "r2": 0.3664147765495258,
-                    "mape": 34.61,
-                    "prediction_time_per_sample": null
-                },
-                "BackwardFill": {
-                    "rmse": 2080.02,
-                    "nrmse": 44.85,
-                    "r2": 0.44920547850572845,
-                    "mape": 29.63,
-                    "prediction_time_per_sample": null
-                },
-                "RollingMean": {
-                    "rmse": 2173.06,
-                    "nrmse": 46.86,
-                    "r2": 0.39882999005474074,
-                    "mape": 33.52,
-                    "prediction_time_per_sample": null
-                },
-                "LinearInterpolation": {
-                    "rmse": 1872.29,
-                    "nrmse": 40.37,
-                    "r2": 0.5537270918323851,
-                    "mape": 29.3,
-                    "prediction_time_per_sample": null
-                }
-            },
-            "stacking": {
-                "mean": {
-                    "StackingRegressor": {
-                        "rmse": 445.29,
-                        "nrmse": 9.6,
-                        "r2": 0.9747567979466328,
-                        "mape": 23.49,
-                        "prediction_time_per_sample": 0.149
+                        "prediction_time_per_sample": 0.2471
                     }
                 }
             }
@@ -1665,71 +961,7 @@
                         "nrmse": 13.06,
                         "r2": 0.9552884216544821,
                         "mape": 33.59,
-                        "prediction_time_per_sample": 0.2471
-                    }
-                }
-            }
-        },
-        "0.45": {
-            "baseline": {
-                "Mean": {
-                    "rmse": 2812.62,
-                    "nrmse": 61.74,
-                    "r2": -4.467269386343453e-05,
-                    "mape": 139.64,
-                    "prediction_time_per_sample": null
-                },
-                "Median": {
-                    "rmse": 2846.76,
-                    "nrmse": 62.49,
-                    "r2": -0.024472708732479198,
-                    "mape": 152.31,
-                    "prediction_time_per_sample": null
-                },
-                "KNNImputer": {
-                    "rmse": 2812.62,
-                    "nrmse": 61.74,
-                    "r2": -4.467269386343453e-05,
-                    "mape": 139.64,
-                    "prediction_time_per_sample": null
-                },
-                "ForwardFill": {
-                    "rmse": 2220.83,
-                    "nrmse": 48.75,
-                    "r2": 0.3765117110334645,
-                    "mape": 32.87,
-                    "prediction_time_per_sample": null
-                },
-                "BackwardFill": {
-                    "rmse": 2067.86,
-                    "nrmse": 45.39,
-                    "r2": 0.4594436418783505,
-                    "mape": 28.9,
-                    "prediction_time_per_sample": null
-                },
-                "RollingMean": {
-                    "rmse": 2182.97,
-                    "nrmse": 47.92,
-                    "r2": 0.39758665567765483,
-                    "mape": 32.39,
-                    "prediction_time_per_sample": null
-                },
-                "LinearInterpolation": {
-                    "rmse": 1854.77,
-                    "nrmse": 40.71,
-                    "r2": 0.5651113190375626,
-                    "mape": 27.92,
-                    "prediction_time_per_sample": null
-                }
-            },
-            "stacking": {
-                "mean": {
-                    "StackingRegressor": {
-                        "rmse": 573.58,
-                        "nrmse": 12.59,
-                        "r2": 0.9584096416858506,
-                        "mape": 32.56,
-                        "prediction_time_per_sample": 0.1019
+                        "prediction_time_per_sample": 0.1663
                     }
                 }
             }
@@ -1791,9 +1023,9 @@
                     "StackingRegressor": {
                         "rmse": 704.31,
                         "nrmse": 15.37,
-                        "r2": 0.9378112653104144,
+                        "r2": 0.9378112653104143,
                         "mape": 40.14,
-                        "prediction_time_per_sample": 0.1078
+                        "prediction_time_per_sample": 0.132
                     }
                 }
             }
@@ -1859,71 +1091,7 @@
                         "nrmse": 0.87,
                         "r2": 0.8149333056702205,
                         "mape": 0.68,
-                        "prediction_time_per_sample": 2.4806
-                    }
-                }
-            }
-        },
-        "0.25": {
-            "baseline": {
-                "Mean": {
-                    "rmse": 19.0,
-                    "nrmse": 2.08,
-                    "r2": -0.1331298398319818,
-                    "mape": 1.9,
-                    "prediction_time_per_sample": null
-                },
-                "Median": {
-                    "rmse": 23.43,
-                    "nrmse": 2.57,
-                    "r2": -0.7231499844310936,
-                    "mape": 2.14,
-                    "prediction_time_per_sample": null
-                },
-                "KNNImputer": {
-                    "rmse": 19.0,
-                    "nrmse": 2.08,
-                    "r2": -0.1331298398319818,
-                    "mape": 1.9,
-                    "prediction_time_per_sample": null
-                },
-                "ForwardFill": {
-                    "rmse": 8.02,
-                    "nrmse": 0.88,
-                    "r2": 0.7980752547877754,
-                    "mape": 0.7,
-                    "prediction_time_per_sample": null
-                },
-                "BackwardFill": {
-                    "rmse": 8.02,
-                    "nrmse": 0.88,
-                    "r2": 0.7982333585798196,
-                    "mape": 0.76,
-                    "prediction_time_per_sample": null
-                },
-                "RollingMean": {
-                    "rmse": 8.43,
-                    "nrmse": 0.92,
-                    "r2": 0.7767290255834464,
-                    "mape": 0.74,
-                    "prediction_time_per_sample": null
-                },
-                "LinearInterpolation": {
-                    "rmse": 7.15,
-                    "nrmse": 0.78,
-                    "r2": 0.839706993249874,
-                    "mape": 0.66,
-                    "prediction_time_per_sample": null
-                }
-            },
-            "stacking": {
-                "mean": {
-                    "StackingRegressor": {
-                        "rmse": 7.5,
-                        "nrmse": 0.82,
-                        "r2": 0.8232070640233603,
-                        "mape": 0.64,
-                        "prediction_time_per_sample": 2.3657
+                        "prediction_time_per_sample": 3.2965
                     }
                 }
             }
@@ -1987,71 +1155,7 @@
                         "nrmse": 0.83,
                         "r2": 0.8158755158773883,
                         "mape": 0.66,
-                        "prediction_time_per_sample": 1.8739
-                    }
-                }
-            }
-        },
-        "0.35": {
-            "baseline": {
-                "Mean": {
-                    "rmse": 17.12,
-                    "nrmse": 1.88,
-                    "r2": -0.0033055157867043494,
-                    "mape": 1.73,
-                    "prediction_time_per_sample": null
-                },
-                "Median": {
-                    "rmse": 17.3,
-                    "nrmse": 1.9,
-                    "r2": -0.024797420304545792,
-                    "mape": 1.72,
-                    "prediction_time_per_sample": null
-                },
-                "KNNImputer": {
-                    "rmse": 17.12,
-                    "nrmse": 1.88,
-                    "r2": -0.0033055157867043494,
-                    "mape": 1.73,
-                    "prediction_time_per_sample": null
-                },
-                "ForwardFill": {
-                    "rmse": 6.86,
-                    "nrmse": 0.75,
-                    "r2": 0.8388362836311255,
-                    "mape": 0.58,
-                    "prediction_time_per_sample": null
-                },
-                "BackwardFill": {
-                    "rmse": 7.02,
-                    "nrmse": 0.77,
-                    "r2": 0.8312471439645659,
-                    "mape": 0.61,
-                    "prediction_time_per_sample": null
-                },
-                "RollingMean": {
-                    "rmse": 8.43,
-                    "nrmse": 0.93,
-                    "r2": 0.7569049948391131,
-                    "mape": 0.68,
-                    "prediction_time_per_sample": null
-                },
-                "LinearInterpolation": {
-                    "rmse": 6.17,
-                    "nrmse": 0.68,
-                    "r2": 0.8694668693623558,
-                    "mape": 0.53,
-                    "prediction_time_per_sample": null
-                }
-            },
-            "stacking": {
-                "mean": {
-                    "StackingRegressor": {
-                        "rmse": 6.93,
-                        "nrmse": 0.76,
-                        "r2": 0.835483013136429,
-                        "mape": 0.59,
-                        "prediction_time_per_sample": 1.6295
+                        "prediction_time_per_sample": 2.133
                     }
                 }
             }
@@ -2113,73 +1217,9 @@
                     "StackingRegressor": {
                         "rmse": 7.55,
                         "nrmse": 0.83,
-                        "r2": 0.8019461768241167,
+                        "r2": 0.8019461768241165,
                         "mape": 0.63,
-                        "prediction_time_per_sample": 1.4269
-                    }
-                }
-            }
-        },
-        "0.45": {
-            "baseline": {
-                "Mean": {
-                    "rmse": 19.27,
-                    "nrmse": 2.12,
-                    "r2": -0.0027596915014842516,
-                    "mape": 1.84,
-                    "prediction_time_per_sample": null
-                },
-                "Median": {
-                    "rmse": 19.71,
-                    "nrmse": 2.17,
-                    "r2": -0.049135462934624785,
-                    "mape": 1.8,
-                    "prediction_time_per_sample": null
-                },
-                "KNNImputer": {
-                    "rmse": 19.27,
-                    "nrmse": 2.12,
-                    "r2": -0.0027596915014842516,
-                    "mape": 1.84,
-                    "prediction_time_per_sample": null
-                },
-                "ForwardFill": {
-                    "rmse": 13.17,
-                    "nrmse": 1.45,
-                    "r2": 0.531558955492035,
-                    "mape": 0.92,
-                    "prediction_time_per_sample": null
-                },
-                "BackwardFill": {
-                    "rmse": 10.61,
-                    "nrmse": 1.17,
-                    "r2": 0.6959525681562433,
-                    "mape": 0.72,
-                    "prediction_time_per_sample": null
-                },
-                "RollingMean": {
-                    "rmse": 13.48,
-                    "nrmse": 1.49,
-                    "r2": 0.5091672294534544,
-                    "mape": 0.94,
-                    "prediction_time_per_sample": null
-                },
-                "LinearInterpolation": {
-                    "rmse": 11.06,
-                    "nrmse": 1.22,
-                    "r2": 0.6696670973455512,
-                    "mape": 0.77,
-                    "prediction_time_per_sample": null
-                }
-            },
-            "stacking": {
-                "mean": {
-                    "StackingRegressor": {
-                        "rmse": 10.52,
-                        "nrmse": 1.16,
-                        "r2": 0.7011828811364498,
-                        "mape": 0.83,
-                        "prediction_time_per_sample": 1.2101
+                        "prediction_time_per_sample": 1.5518
                     }
                 }
             }
@@ -2243,7 +1283,7 @@
                         "nrmse": 1.01,
                         "r2": 0.771082500373505,
                         "mape": 0.69,
-                        "prediction_time_per_sample": 1.0921
+                        "prediction_time_per_sample": 1.1898
                     }
                 }
             }
